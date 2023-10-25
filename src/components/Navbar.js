@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <div class="flex justify-between m-2">
       <div>
-        <img src={logga} />
+        <img src={logga} alt="logga" />
       </div>
       <div class="flex row">
         <HiMagnifyingGlass size={30} class="mx-4" />
