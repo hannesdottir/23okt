@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/23okt/static/css/main.15d1526a.css",
-    "main.js": "/23okt/static/js/main.6a310485.js",
+    "main.css": "/23okt/static/css/main.b83bd41f.css",
+    "main.js": "/23okt/static/js/main.5c99edde.js",
     "static/js/787.c71d6f9e.chunk.js": "/23okt/static/js/787.c71d6f9e.chunk.js",
+    "static/media/weightlifting.jpg": "/23okt/static/media/weightlifting.e74b8242d0f0230b99dd.jpg",
     "index.html": "/23okt/index.html",
-    "main.15d1526a.css.map": "/23okt/static/css/main.15d1526a.css.map",
-    "main.6a310485.js.map": "/23okt/static/js/main.6a310485.js.map",
+    "main.b83bd41f.css.map": "/23okt/static/css/main.b83bd41f.css.map",
+    "main.5c99edde.js.map": "/23okt/static/js/main.5c99edde.js.map",
     "787.c71d6f9e.chunk.js.map": "/23okt/static/js/787.c71d6f9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15d1526a.css",
-    "static/js/main.6a310485.js"
+    "static/css/main.b83bd41f.css",
+    "static/js/main.5c99edde.js"
   ]
 }
