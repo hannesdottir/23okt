@@ -18,3 +18,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.bg-pic {
+  background-image: url("https://www.astungt.se/cdn/shop/files/hero_blackwhite_233079be-4f76-487a-bc1c-863ce690da47.jpg?v=1695339744&width=1920");
+}

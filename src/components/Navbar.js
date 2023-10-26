@@ -6,14 +6,14 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function Navbar() {
   return (
-    <div class="flex justify-between m-2">
+    <div className="flex justify-between p-4">
       <div>
         <img src={logga} alt="logga" />
       </div>
-      <div class="flex row">
-        <HiMagnifyingGlass size={30} class="mx-4" />
+      <div className="flex row">
+        <HiMagnifyingGlass size={30} className="mx-4" />
         <BsBag size={30} />
-        <RxHamburgerMenu size={30} class="mx-4" />
+        <RxHamburgerMenu size={30} className="mx-4" />
       </div>
     </div>
   );
