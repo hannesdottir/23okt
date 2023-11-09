@@ -1,8 +1,8 @@
 import Banner from "./components/Banner";
 import ClothingSection from "./components/ClothingSection";
+import Footer from "./components/Footer";
 import InfoBanner from "./components/InfoBanner";
 import InfoTopbar from "./components/InfoTopbar";
-import Prov from "./components/Prov";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Banner />
       <InfoBanner />
       <ClothingSection />
-      <Prov />
+      <Footer />
     </div>
   );
 }

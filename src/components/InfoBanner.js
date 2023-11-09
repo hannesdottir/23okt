@@ -5,7 +5,7 @@ import { BsBoxSeam } from "react-icons/bs";
 
 export default function InfoBanner() {
   return (
-    <div className="flex flex-col my-20 ml-6">
+    <div className="flex flex-col my-20 ml-6 md:flex-row md:justify-center">
       <div className="flex flex-row items-center">
         <div className="m-6">
           <AiOutlineCar size={30} />
