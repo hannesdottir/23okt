@@ -7,6 +7,10 @@ import Prov from "./components/Prov";
 function App() {
   return (
     <div>
+      <InfoTopbar />
+      <Banner />
+      <InfoBanner />
+      <ClothingSection />
       <Prov />
     </div>
   );

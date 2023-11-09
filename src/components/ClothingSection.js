@@ -3,13 +3,13 @@ import shortsfram from "../images/shortsfram.jpg";
 
 export default function ClothingSection() {
   return (
-    <div className="flex flex-col justify-center">
+    <div>
       <div className="flex flex-row justify-between m-6">
         <h1 className="text-3xl">TRÄNINGSKLÄDER</h1>
         <p className="underline">VISA ALLA</p>
       </div>
-      <div className="flex flex-row justify-center flex-wrap">
-        <div className="flex flex-col m-6 md:w-1/3">
+      <div className="grid justify-center md:grid-cols-3 gap-24 mx-64">
+        <div className="flex flex-col">
           <img src={shortsfram} alt="logga" />
           <p>ASTUNGT SHORTS</p>
           <p>
@@ -21,7 +21,7 @@ export default function ClothingSection() {
             <span className="text-red-500 text-xs">SPARA 15%</span>
           </p>
         </div>
-        <div className="flex flex-col m-6 w-1/3">
+        <div className="flex flex-col">
           <img src={shortsfram} alt="logga" />
           <p>ASTUNGT SHORTS</p>
           <p>
@@ -33,7 +33,7 @@ export default function ClothingSection() {
             <span className="text-red-500 text-xs">SPARA 15%</span>
           </p>
         </div>
-        <div className="flex flex-col  m-6 w-1/3">
+        <div className="flex flex-col">
           <img src={shortsfram} alt="logga" />
           <p>ASTUNGT SHORTS</p>
           <p>
@@ -45,7 +45,7 @@ export default function ClothingSection() {
             <span className="text-red-500 text-xs">SPARA 15%</span>
           </p>
         </div>
-        <div className="flex flex-col m-6 w-1/3">
+        <div className="flex flex-col">
           <img src={shortsfram} alt="logga" />
           <p>ASTUNGT SHORTS</p>
           <p>
@@ -57,7 +57,7 @@ export default function ClothingSection() {
             <span className="text-red-500 text-xs">SPARA 15%</span>
           </p>
         </div>
-        <div className="flex flex-col  m-6 w-1/3">
+        <div className="flex flex-col">
           <img src={shortsfram} alt="logga" />
           <p>ASTUNGT SHORTS</p>
           <p>
@@ -69,7 +69,7 @@ export default function ClothingSection() {
             <span className="text-red-500 text-xs">SPARA 15%</span>
           </p>
         </div>
-        <div className="flex flex-col m-6 w-1/3">
+        <div className="flex flex-col">
           <img src={shortsfram} alt="logga" />
           <p>ASTUNGT SHORTS</p>
           <p>
