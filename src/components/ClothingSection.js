@@ -8,13 +8,9 @@ export default function ClothingSection() {
         <h1 className="text-3xl">TRÄNINGSKLÄDER</h1>
         <p className="underline">VISA ALLA</p>
       </div>
-      <div className="flex flex-row">
-        <div>
-          <img
-            style={{ width: 200, height: 200 }}
-            src={shortsfram}
-            alt="logga"
-          />
+      <div className="flex flex-row justify-center flex-wrap">
+        <div className="flex flex-col m-6 md:w-1/3">
+          <img src={shortsfram} alt="logga" />
           <p>ASTUNGT SHORTS</p>
           <p>
             ⭐⭐⭐⭐⭐ <span className="text-xs">1 RECENISION</span>
@@ -25,12 +21,8 @@ export default function ClothingSection() {
             <span className="text-red-500 text-xs">SPARA 15%</span>
           </p>
         </div>
-        <div>
-          <img
-            style={{ width: 200, height: 200 }}
-            src={shortsfram}
-            alt="logga"
-          />
+        <div className="flex flex-col m-6 w-1/3">
+          <img src={shortsfram} alt="logga" />
           <p>ASTUNGT SHORTS</p>
           <p>
             ⭐⭐⭐⭐⭐ <span className="text-xs">1 RECENISION</span>
@@ -41,12 +33,8 @@ export default function ClothingSection() {
             <span className="text-red-500 text-xs">SPARA 15%</span>
           </p>
         </div>
-        <div>
-          <img
-            style={{ width: 200, height: 200 }}
-            src={shortsfram}
-            alt="logga"
-          />
+        <div className="flex flex-col  m-6 w-1/3">
+          <img src={shortsfram} alt="logga" />
           <p>ASTUNGT SHORTS</p>
           <p>
             ⭐⭐⭐⭐⭐ <span className="text-xs">1 RECENISION</span>
@@ -57,12 +45,8 @@ export default function ClothingSection() {
             <span className="text-red-500 text-xs">SPARA 15%</span>
           </p>
         </div>
-        <div>
-          <img
-            style={{ width: 200, height: 200 }}
-            src={shortsfram}
-            alt="logga"
-          />
+        <div className="flex flex-col m-6 w-1/3">
+          <img src={shortsfram} alt="logga" />
           <p>ASTUNGT SHORTS</p>
           <p>
             ⭐⭐⭐⭐⭐ <span className="text-xs">1 RECENISION</span>
@@ -73,12 +57,8 @@ export default function ClothingSection() {
             <span className="text-red-500 text-xs">SPARA 15%</span>
           </p>
         </div>
-        <div>
-          <img
-            style={{ width: 200, height: 200 }}
-            src={shortsfram}
-            alt="logga"
-          />
+        <div className="flex flex-col  m-6 w-1/3">
+          <img src={shortsfram} alt="logga" />
           <p>ASTUNGT SHORTS</p>
           <p>
             ⭐⭐⭐⭐⭐ <span className="text-xs">1 RECENISION</span>
@@ -89,12 +69,8 @@ export default function ClothingSection() {
             <span className="text-red-500 text-xs">SPARA 15%</span>
           </p>
         </div>
-        <div>
-          <img
-            style={{ width: 200, height: 200 }}
-            src={shortsfram}
-            alt="logga"
-          />
+        <div className="flex flex-col m-6 w-1/3">
+          <img src={shortsfram} alt="logga" />
           <p>ASTUNGT SHORTS</p>
           <p>
             ⭐⭐⭐⭐⭐ <span className="text-xs">1 RECENISION</span>
